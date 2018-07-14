@@ -14,7 +14,7 @@ export class AddFishForm extends React.Component {
             price: parseFloat(this.priceRef.value.value),
             status: this.statusRef.value.value,
             desc: this.descRef.value.value,
-            image: this.imageRef.value.valuef
+            image: this.imageRef.value.value
         }
 
         this.props.addFish(fish);
