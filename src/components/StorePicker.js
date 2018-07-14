@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { getFunName } from '../helpers';
 
 export class StorePicker extends React.Component {
